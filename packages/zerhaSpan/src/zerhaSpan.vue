@@ -5,7 +5,8 @@
 </template>
 
 <script>
-  export default {
+export default {
+  name:'zerhaSpan',
   methods: {
       clickSpan () {
         alert('点击触发span标签！')
