@@ -1,0 +1,13 @@
+
+
+// 导入组件，组件必须声明 name
+import zerhaBtn from './src/zerhaBtn.vue'
+
+// 为组件提供 install 安装方法，供按需引入
+zerhaBtn.install = function (Vue) {
+  Vue.component(zerhaBtn.name, zerhaBtn)
+}
+
+// 默认导出组件
+export default zerhaBtn
+
